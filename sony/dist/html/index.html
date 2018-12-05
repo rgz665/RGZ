@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="../css/head.css">
+	<link rel="stylesheet" href="../css/home.css">
+	<link rel="stylesheet" href="../css/login.css">
+	<script src = "../jquery/require.js" async = "true" defer data-main = "../jquery/main"></script>
+</head>
+<body>
+	<!-- 头部分 -->
+	<div class="topbox">
+		<div class="top clear">
+			<div class="left clear">
+				<img src="../images/home/sony-logo.jpg" alt="">
+				<div class="classify clear">
+					<span>商品分类
+						<div class="one">
+							<ul class="spe">
+								
+							</ul>
+						</div>
+					</span>
+					<span></span>
+					<span>网站导航
+						<div class="net">
+							<div class="net_top clear">
+								
+							</div>
+							<div class="net_bottom">索尼中国顾客咨询热线<i>400 810 9000</i></div>
+						</div>
+					</span>
+				</div>
+				<div class="search">
+					<input type="text" placeholder="G大师镜头">
+					<button></button>
+				</div>
+			</div>
+			
+			<div class="right">
+				<span id="r_login">登录/注册</span>
+				<span></span>
+				<span>MySony
+					<div class="my">
+						<ul>
+							<li><a href="#">我的账户</a></li>
+							<li><a href="#">我的订单</a></li>
+							<li><a href="#">我的心愿单</a></li>
+							<li><a href="#">产品注册</a></li>
+							<li><a href="#">会员福利</a></li>
+						</ul>
+					</div>
+				</span>
+				<span></span>
+				<span>服务与支持
+					<div class="my">
+						<ul>
+							<li><a href="#">售后服务</a></li>
+							<li><a href="#">索尼中国App</a></li>
+							<li><a href="#">索尼应用中心</a></li>
+							<li><a href="#">线下体验及购买</a></li>
+						</ul>
+					</div>
+				</span>
+				<div>
+					<div class="shop clear">
+						<div class="s_left clear">
+							<em>总计：RMB</em>
+							<i>0.00</i>
+						</div>
+						<div class="s_right">
+							<button>去购物车(<i>0</i>)</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 侧边栏第一个 -->
+			
+		</div>
+	</div>
+	<!-- 登录窗口 -->
+	<div class="loginbox" id="loginbox">
+		<div class="register">
+			<div class="top clear">
+				<div class="t_one" id="t_one1" >
+					<span>登录</span>
+					<i>请完成登录后进行购物车相关操作</i>
+				</div>
+				<div class="t_one active" id="t_one2">
+					<span>注册</span>
+					<i>请完成注册后进行购物车相关操作</i>
+				</div>
+				<div class="t_one" id="t_close"><img src="../images/home/close.png" alt=""></div>
+			</div>
+			<!-- 注册 -->
+			<div class="bottom bottom2" id="bottom2">
+				<!-- 手机 -->
+				<div class="clear">
+					<div></div>
+					<input type="text" placeholder="输入手机号" class="btn_phone" id="btn_phone">
+					<button class="button1">X</button>
+					<img src="../images/home/333.png" class="1" alt="">
+				</div>
+				<p class="warnbox" id="warnbox1"></p>
+
+				<!-- 邮箱 -->
+				<div class="clear">
+					<div></div>
+					<input type="text" placeholder="输入邮箱地址(选填)" id="btn_email" class="btn_phone1">
+					<button class="button2">X</button>
+					<img src="../images/home/333.png" class="2" alt="">
+				</div>
+
+				<p class="warnbox" id="warnbox2"></p>
+
+				<!-- 密码 -->
+
+				<div class="clear">
+					<div></div>
+					<input type="text" class= "btn_pwd" placeholder="密码由8-40个字符组成，必须含字母数字">
+					<img src="../images/home/333.png" class="3" alt="">
+				</div>
+
+				<p class="warnbox" id="warnbox3"></p>
+
+
+				<div class="clear">
+					<div></div>
+					<input type="text" placeholder="再次输入密码" class="btn_pwd1">
+					<img src="../images/home/333.png" class="4" alt="">
+				</div>
+
+				<p class="warnbox" id="warnbox4"></p>
+				<div class="pic"></div>
+
+				<div><input type="text" placeholder="输入短信验证码"><button>获取短信验证码</button></div>
+				<div class="clear">
+					<input type="checkbox" name="color"><label for="">在您填写信息之前，请仔细阅读并完全理解<i>"索尼隐私政策","My Sony入会须知",”My Sony会员条款。</i></label>
+				</div>
+				<div>
+					<input type="checkbox" name="color" checked><label for="">是否愿意接收来自Sony的信息</label>
+				</div>
+
+				<button id="b_sub">注册</button>
+				<p class="p">如果您的会员账号无法登录，请联系400-810-1228</p>
+			</div>
+
+			<!-- 登录 -->
+			<div class="bottom bottom1" id="bottom1">
+				<div class="clear"><div></div><input type="text" placeholder="邮箱/用户名/手机" id="d_user"></div>
+				<div class="clear"><div></div><input type="text" placeholder="密码" id="d_pwd"></div>
+				<div class="clear">
+					<input type="checkbox" name="color"><em>记住用户名</em><a href="#">忘记密码</a>
+				</div>
+				<p class="warnbox" id="warnbox5"></p>
+				<button id="d_btn">登录</button>
+				<p class="p">如果您的会员账号无法登录，请联系400-810-1228</p>
+			</div>
+
+		</div>
+	</div>
+	<!-- 轮播图 -->
+	<div class="banbox">
+		<div class="con" id="con">
+			<ul class="clear">
+				<li><a href="#"><img src="../images/home/kv_gaster_181026.jpg" alt=""></a></li>
+				<li><a href="#"><img src="../images/home/kv_pawjk_181029.jpg" alt=""></a></li>
+				<li><a href="#"><img src="../images/home/kv_4khandycam_181114.jpg" alt=""></a></li>
+				<li><a href="#"><img src="../images/home/kv_gaster_181026.jpg" alt=""></a></li>
+			</ul>
+			<div class="prev" id="prev">
+			</div>
+			<div class="next" id="next">
+			</div>
+		</div>
+	</div>
+	<div class="ban clear" id="ban">
+		<div class="con_one active"><span>索尼新品系列代言人</span><span>2018全新出发</span></div>
+		<div class="con_one"><span>索尼新品系列代言人</span><span>2018全新出发</span></div>
+		<div class="con_one"><span>索尼新品系列代言人</span><span>2018全新出发</span></div>
+	</div>
+
+	<!-- 小轮播图 -->
+	<div class="smallban">
+	  	<div class="header">最近活动
+	  		<div class="s_prev" id="s_prev"></div>
+			<div class="s_next" id="s_next"></div>
+	  	</div>
+		<div class="ban" id="s_ban">
+			<ul>
+				<li><img src="../images/home/zxhd_qhfslogan.jpg" alt=""></li>
+				<li><img src="../images/home/zxhd_wmsfz_181114.jpg" alt=""></li>
+				<li><img src="../images/home/zxhd_pawjk.jpg" alt=""></li>
+				<li><img src="../images/home/zxhd_qhfslogan.jpg" alt=""></li>
+				<li><img src="../images/home/zxhd_hdxlcx_0920.jpg" alt=""></li>
+				<li><img src="../images/home/zxhd_earduo_20181105.jpg" alt=""></li>
+				<li><img src="../images/home/zxhd_qhfslogan.jpg" alt=""></li>
+				<li><img src="../images/home/zxhd_wmsfz_181114.jpg" alt=""></li>
+			</ul>
+		</div>
+		<div class="select" id="select">
+			<div class="active"></div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+
+	<!-- 新品发布 -->
+	<div class="newbox clear">
+		<div class="new">
+			<div class="title">新品发布</div>
+			<div class="new_pro clear">
+				<div class="one">
+					<p>LSPX-S1</p>
+					<p>静雅音管</p>
+					<span>光音融合</span>
+					<span>火热销售</span>
+					<i>RMB<em>4,990</em></i>
+					<img src="../images/home/xpfb_lspx_s1.jpg" alt="">
+				</div>
+				<div class="one">
+					<p>LSPX-S1</p>
+					<p>静雅音管</p>
+					<span>光音融合</span>
+					<span>火热销售</span>
+					<i>RMB<em>4,990</em></i>
+					<img src="../images/home/xpfb_lspx_s1.jpg" alt="">
+				</div>
+				<div class="one">
+					<p>LSPX-S1</p>
+					<p>静雅音管</p>
+					<span>光音融合</span>
+					<span>火热销售</span>
+					<i>RMB<em>4,990</em></i>
+					<img src="../images/home/xpfb_lspx_s1.jpg" alt="">
+				</div>
+				<div class="one">
+					<p>LSPX-S1</p>
+					<p>静雅音管</p>
+					<span>光音融合</span>
+					<span>火热销售</span>
+					<i>RMB<em>4,990</em></i>
+					<img src="../images/home/xpfb_lspx_s1.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 便携式音频设备 -->
+	<div class="audiobox clear">
+		<div class="audio clear">
+			<p>便携式音频设备</p>
+			<div class="link clear">
+				<a href="">高解析度音频设备</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+			</div>
+			<div class='product clear'>
+				<div class="left clear">
+					<div class="one">
+							<img src="../images/home/sp900_600x703.jpg" alt="" class="bigMax">
+					</div>
+				</div>
+				<div class="right clear">
+					<div class="m">
+						<div class="two">
+							<img src="../images/home/block_nw_a55_295194.jpg" alt="" class="big">
+							<img src="../images/home/hires_40x40.png" alt="">
+						</div>
+						<div class="two">
+							<img src="../images/home/block_wh_h800_295194.jpg" alt="" class="big">
+							<img src="../images/home/hires_40x40.png" alt="">
+							<div class="text">
+								<div>Wh-H800</div>
+								<div>音我更出色</div>
+								<i>RMB1,,699</i>
+							</div>
+
+						</div>
+						<div class='four'>
+							<div class="text">
+								<div>Wh-H800</div>
+								<div>音我更出色</div>
+								<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/block_wh_1000xm2_295295.jpg" alt="" class="bigSm">
+							<img src="../images/home/hires_40x40.png" alt="">
+						</div>
+					</div>
+					<div class="b">
+						<div class="text">
+							<div>Wh-H800</div>
+							<div>音我更出色</div>
+							<i>RMB1,,699</i>
+						</div>
+						<div class="three">
+							<img src="../images/home/block_wh_1000xm3ws_295398.jpg" alt="" class="bigMin">
+						</div>
+						<div class='four'>
+							<div class="text">
+								<div>Wh-H800</div>
+								<div>音我更出色</div>
+								<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/block_wi_1000x_295295.jpg" alt="" class="bigSm">
+							<img src="../images/home/hires_40x40.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='product1 clear'>
+				<div class="right clear">
+					<div class="long">
+						<div class="text">
+							<div>Wh-H800</div>
+							<div>音我更出色</div>
+							<i>RMB1,,699</i>
+						</div>
+						<img src="../images/home/block_srs_x99_600295.jpg" alt="" class="bigMm">
+					</div>
+					<div class="m">
+						<div class="two">
+							<img src="../images/home/block_nw_zx300_295398.jpg" alt="" class="bigMin">
+						</div>
+					</div>
+					<div class="b">
+						<div class="three">
+							<div class="text">
+								<div>Wh-H800</div>
+								<div>音我更出色</div>
+								<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/icd_ux560.jpg" alt="" class="big">
+						</div>
+						<div class='four'>
+							<div class="text">
+								<div>Wh-H800</div>
+								<div>音我更出色</div>
+								<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/block_nw_wm1a_136106.png" alt="" class="bigSs">
+						</div>
+					</div>
+				</div>
+				<div class="left clear">
+					<div class="one">
+						<img src="../images/home/sp900_600x703.jpg" alt="" class="bigMax">
+					</div>
+				</div>
+			</div>
+
+			<div class="bottomlink">
+				<span>装机必备:</span>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+			</div>
+		</div>
+	</div>
+	<!-- 数码影像产品 -->
+	<div class="audiobox audiobox4 clear">
+		<div class="audio clear">
+			<p>数码影像产品</p>
+			<div class="link clear">
+				<a href="">高解析度音频设备</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+			</div>
+			<div class='product clear'>
+				<div class="left clear">
+					<div class="one">
+							<div class="text">
+								<div>Wh-H800</div>
+								<div>音我更出色</div>
+								<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/sp900_600x703.jpg" alt="" class="bigMax">
+					</div>
+				</div>
+				<div class="right clear">
+					<div class="m">
+						
+						<div class="two">
+							<img src="../images/home/block_a9_sel2470gm_295398.jpg" alt="" class="bigMin">
+							<img src="../images/home/hires_40x40.png" alt="">
+							<div class="text">
+								<div>Wh-H800</div>
+								<div>音我更出色</div>
+								<i>RMB1,,699</i>
+							</div>
+
+						</div>
+						<div class='four'>
+							<div class="text">
+								<div>Wh-H800</div>
+								<div>音我更出色</div>
+								<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/block_wh_1000xm2_295295.jpg" alt="" class="bigSm">
+							<img src="../images/home/hires_40x40.png" alt="">
+						</div>
+					</div>
+					<div class="b">
+						<div class="text">
+							<div>Wh-H800</div>
+							<div>音我更出色</div>
+							<i>RMB1,,699</i>
+						</div>
+						<div class="three">
+							<img src="../images/home/block_wh_1000xm3ws_295398.jpg" alt="" class="bigMin">
+						</div>
+						<div class='four'>
+							<div class="text">
+								<div>Wh-H800</div>
+								<div>音我更出色</div>
+								<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/block_wi_1000x_295295.jpg" alt="" class="bigSm">
+							<img src="../images/home/hires_40x40.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='product1 clear'>
+				<div class="right clear">
+					<div class="long">
+						<div class="text">
+							<div>Wh-H800</div>
+							<div>音我更出色</div>
+							<i>RMB1,,699</i>
+						</div>
+						<img src="../images/home/block_srs_x99_600295.jpg" alt="" class="bigMm">
+					</div>
+					<div class="m">
+						<div class="two">
+							<!-- <div class="text">
+								<div>Wh-H800</div>
+								<div>音我更出色</div>
+								<i>RMB1,,699</i>
+							</div> -->
+							<img src="../images/home/block_nw_zx300_295398.jpg" alt="" class="bigMin">
+						</div>
+					</div>
+					<div class="b">
+						<div class="three">
+							<div class="text">
+								<div>Wh-H800</div>
+								<div>音我更出色</div>
+								<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/icd_ux560.jpg" alt="" class="big">
+						</div>
+						<div class='four'>
+							<div class="text">
+								<div>Wh-H800</div>
+								<div>音我更出色</div>
+								<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/block_nw_wm1a_136106.png" alt="" class="bigSs">
+						</div>
+					</div>
+				</div>
+				<div class="left clear">
+					<div class="one">
+						<div class="text">
+								<div>Wh-H800</div>
+								<div>音我更出色</div>
+								<i>RMB1,,699</i>
+						</div>
+						<img src="../images/home/sp900_600x703.jpg" alt="" class="bigMax">
+					</div>
+				</div>
+			</div>
+
+			<div class="bottomlink">
+				<span>装机必备:</span>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+			</div>
+		</div>
+	</div>
+	<!-- 影音娱乐 -->
+	<div class="audiobox audiobox1 clear">
+		<div class="audio clear">
+			<p>影音娱乐</p>
+			<div class="link clear">
+				<a href="">高解析度音频设备</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+			</div>
+			<div class='product clear'>
+				<div class="left clear">
+					<div class="one">
+
+						<img src="../images/home/sp900_600x703.jpg" alt="" class="bigMax">
+					</div>
+				</div>
+				<div class="right clear">
+					<div class="m">
+						<div class="two">
+							<div class="text">
+									<div>Wh-H800</div>
+									<div>音我更出色</div>
+									<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/block_nw_a55_295194.jpg" alt="" class="bigSm">
+						</div>
+						<div class='four'>
+							<div class="text">
+									<div>Wh-H800</div>
+									<div>音我更出色</div>
+									<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/block_wh_1000xm2_295295.jpg" alt="" class="bigMin">
+						</div>
+					</div>
+					<div class="b">
+						<div class="three">
+							<div class="text">
+									<div>Wh-H800</div>
+									<div>音我更出色</div>
+									<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/block_wh_1000xm3ws_295398.jpg" alt="" class="bigSm">
+						</div>
+						<div class='four'>
+							<div class="text">
+									<div>Wh-H800</div>
+									<div>音我更出色</div>
+									<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/block_wi_1000x_295295.jpg" alt="" class="big">
+						</div>
+						<div class='four'>
+							<div class="text">
+									<div>Wh-H800</div>
+									<div>音我更出色</div>
+									<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/block_wi_1000x_295295.jpg" alt="" class="big">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='product1 clear'>
+				<div class="right clear">
+					<div class="m">
+						<div class="two">
+							<img src="../images/home/block_nw_zx300_295398.jpg" alt="" class="bigMin">
+						</div>
+					</div>
+					<div class="b">
+						<div class="three">
+							<div class="text">
+									<div>Wh-H800</div>
+									<div>音我更出色</div>
+									<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/icd_ux560.jpg" alt="" class="big">
+						</div>
+						<div class='four'>
+							<div class="text">
+									<div>Wh-H800</div>
+									<div>音我更出色</div>
+									<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/block_nw_wm1a_136106.png" alt="" class="bigSs">
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="left clear">
+					<div class="b">
+						<div class="three">
+							<div class="text">
+									<div>Wh-H800</div>
+									<div>音我更出色</div>
+									<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/icd_ux560.jpg" alt="" class="big">
+						</div>
+						<div class='four'>
+							<div class="text">
+									<div>Wh-H800</div>
+									<div>音我更出色</div>
+									<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/block_nw_wm1a_136106.png" alt="" class="bigSs speS">
+						</div>
+					</div>
+					<div class="m">
+						<div class="two">
+							<img src="../images/home/block_nw_zx300_295398.jpg" alt="" class="bigMin">
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="bottomlink">
+				<span>装机必备:</span>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- 潮玩科技 -->
+	<div class="audiobox audiobox2 clear">
+		<div class="audio clear">
+			<p>潮玩科技</p>
+			<div class="link clear">
+				<a href="">高解析度音频设备</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+			</div>
+			<div class='product clear'>
+				<div class="right clear">
+					<div class="m">
+						<div class="two">
+							<div class="text">
+									<div>Wh-H800</div>
+									<div>音我更出色</div>
+									<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/block_xperia_xz2_320256.png" alt="" class="bigL">
+						</div>
+					</div>
+					<div class="b clear">
+						<div class="three">
+							<div class="text">
+									<div>Wh-H800</div>
+									<div>音我更出色</div>
+									<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/block_wh_1000xm3ws_295398.jpg" alt="" class="bigMin">
+						</div>
+						<div class='four'>
+							<img src="../images/home/block_wi_1000x_295295.jpg" alt="" class="bigMin">
+						</div>
+						<div class='four four1'>
+							<div class="text">
+									<div>Wh-H800</div>
+									<div>音我更出色</div>
+									<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/block_wi_1000x_295295.jpg" alt="" class="bigMin">
+						</div>
+						<div class='four'>
+							<img src="../images/home/block_wi_1000x_295295.jpg" alt="" class="bigMin">
+						</div>
+					</div>
+				</div>
+				<div class="left clear">
+					<div class="one">
+						<img src="../images/home/sp900_600x703.jpg" alt="" class="bigMax">
+					</div>
+					<div class="b clear">
+						<div class="three">
+							<div class="text">
+									<div>Wh-H800</div>
+									<div>音我更出色</div>
+									<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/block_wi_1000x_295295.jpg" alt="" class="bigMin">
+						</div>
+						<div class='four'>
+							<div class="text">
+									<div>Wh-H800</div>
+									<div>音我更出色</div>
+									<i>RMB1,,699</i>
+							</div>
+							<img src="../images/home/block_wi_1000x_295295.jpg" alt="" class="bigMin">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+
+			<div class="bottomlink">
+				<span>装机必备:</span>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+				<a href="">Music Center</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- 会员专区 -->
+	<div class="audiobox audiobox2 audiobox3 clear">
+		<div class="audio clear">
+			<p>会员专区</p>
+			<div class="link clear">
+				<a href="">高解析度音频设备</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+				<a href="">热门活动</a>
+			</div>
+			<div class='product clear'>
+				<div class="right clear">
+					<div class="m">
+						<div class="two">
+							<img src="../images/home/block_xperia_xz2_320256.png" alt="" class="bigL">
+						</div>
+					</div>
+					<div class="b clear">
+						<div class="three">
+							<img src="../images/home/block_wh_1000xm3ws_295398.jpg" alt="" class="bigMin">
+						</div>
+						<div class='four'>
+							<img src="../images/home/block_wi_1000x_295295.jpg" alt="" class="bigMin">
+						</div>
+						<div class='four four1'>
+							<img src="../images/home/block_wi_1000x_295295.jpg" alt="" class="bigMin">
+						</div>
+						<div class='four'>
+							<img src="../images/home/block_wi_1000x_295295.jpg" alt="" class="bigMin">
+						</div>
+					</div>
+				</div>
+				<div class="left clear">
+					<div class="one">
+						<img src="../images/home/sp900_600x703.jpg" alt="" class="bigMax">
+					</div>
+					<div class="b clear">
+						<div class="three">
+							<img src="../images/home/block_wi_1000x_295295.jpg" alt="" class="bigMin">
+						</div>
+						<div class='four'>
+							<img src="../images/home/block_wi_1000x_295295.jpg" alt="" class="bigMin">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+
+
+	<!-- 底部 -->
+	<div class="bottombox">
+		<div class="bottom clear">
+			<div class="first">
+				<div class="one">
+					<div class="top">
+						微摄会
+					</div>
+					<img src="../images/home/block_wsh_181113.jpg" alt="">
+				</div> 
+				<div class="title">
+					带上索尼微单看海上最美的日落
+				</div>
+			</div>
+			<div class="first">
+				<div class="one">
+					<div class="top">
+						微摄会
+					</div>
+					<img src="../images/home/block_wsh_181113.jpg" alt="">
+				</div> 
+				<div class="title">
+					带上索尼微单看海上最美的日落
+				</div>
+			</div>
+			<div class="first">
+				<div class="one">
+					<div class="top">
+						微摄会
+					</div>
+					<img src="../images/home/block_wsh_181113.jpg" alt="">
+				</div> 
+				<div class="title">
+					带上索尼微单看海上最美的日落
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- store -->
+	<div class="storebox">
+		<div class="store clear">
+			<div class="one"></div>
+			<div class="one"></div>
+			<div class="one"></div>
+			<div class="one"></div>
+			<div class="one"></div>
+		</div>
+	</div>
+</body>
+</html>

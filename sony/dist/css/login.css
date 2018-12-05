@@ -1,0 +1,273 @@
+@charset "UTF-8";
+html, body, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, section, article, nav, footer, figure, figcaption, aside, header, main {
+  padding: 0;
+  margin: 0; }
+
+ul, ol, li {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+img {
+  display: block; }
+
+b, strong, em, i, h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-style: normal; }
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+/*注册*/
+.loginbox .register {
+  width: 559px;
+  height: 613px;
+  background: #fff;
+  position: absolute;
+  z-index: 999;
+  opacity: 1;
+  left: 100px;
+  top: 100px; }
+
+.loginbox .register .top .t_one {
+  width: 251px;
+  height: 65px;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  background: #F5F5F5; }
+
+.loginbox .register .top .t_one span {
+  color: #000;
+  display: block;
+  margin-top: 10px; }
+
+.loginbox .register .top .t_one i {
+  font-size: 12px;
+  display: block;
+  color: #000; }
+
+.loginbox .register .top .t_one:last-child {
+  width: 56px;
+  height: 65px; }
+
+.loginbox .register .top .t_one:last-child img {
+  display: block;
+  margin: 25px 0 0 23px; }
+
+.loginbox .register .top .active {
+  background: #1e95f1;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 65px; }
+
+.loginbox .register .bottom {
+  padding: 28px 0 0 120px;
+  background: #fff;
+  padding-bottom: 30px; }
+
+.loginbox .register .bottom .warnbox {
+  width: 323px;
+  height: 21px; }
+
+.loginbox .register .bottom .warn {
+  width: 323px;
+  height: 19px;
+  border: 1px solid #ff701b;
+  background: #ffe1ba;
+  color: #ff701b;
+  display: block;
+  font-size: 12px;
+  color: red; }
+
+.loginbox .register .bottom .warn img {
+  padding-left: 5px;
+  float: left;
+  margin-right: 10px; }
+
+.loginbox .register .bottom > div {
+  width: 323px;
+  height: 50px;
+  border: 1px solid #bdbdbd;
+  position: relative; }
+
+.loginbox .register .bottom > div > div {
+  width: 50px;
+  height: 50px;
+  float: left;
+  border-right: 1px solid #bdbdbd; }
+
+.loginbox .register .bottom > div:first-child > div {
+  background: url("../images/home/tel.png") no-repeat center #f3f3f3; }
+
+.loginbox .register .bottom > div:nth-of-type(2) > div {
+  background: url("../images/home/email.png") no-repeat center #f3f3f3; }
+
+.loginbox .register .bottom > div:nth-of-type(3) > div {
+  background: url("../images/home/pass.png") no-repeat center #f3f3f3; }
+
+.loginbox .register .bottom > div:nth-of-type(4) > div {
+  background: url("../images/home/pass.png") no-repeat center #f3f3f3; }
+
+.loginbox .register .bottom > div input {
+  width: 235px;
+  height: 47px;
+  float: left;
+  border: 0;
+  text-indent: 10px; }
+
+.loginbox .register .bottom > div:nth-of-type(3) input {
+  width: 270px; }
+
+.loginbox .register .bottom > div:nth-of-type(4) input {
+  width: 270px; }
+
+.loginbox .register .bottom > div:nth-of-type(5) {
+  border: 0;
+  height: 37px;
+  background: url("../images/home/111111.jpg") no-repeat center;
+  margin-bottom: 5px; }
+
+.loginbox .register .bottom > div:nth-of-type(6) {
+  border: 0; }
+
+.loginbox .register .bottom > div:nth-of-type(6) input {
+  width: 126px;
+  height: 34px;
+  border: 1px solid #f3f3f3; }
+
+.loginbox .register .bottom > div:nth-of-type(6) button {
+  border: 0;
+  background: orange;
+  width: 104px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px; }
+
+.loginbox .register .bottom > div:nth-of-type(7) {
+  border: 0;
+  width: 323px;
+  height: 30px; }
+
+.loginbox .register .bottom > div:nth-of-type(7) input {
+  float: left;
+  width: 12px;
+  height: 12px; }
+
+.loginbox .register .bottom > div:nth-of-type(7) label {
+  float: left;
+  font-size: 12px;
+  width: 300px; }
+
+.loginbox .register .bottom > div:nth-of-type(7) label i {
+  color: #f9711f; }
+
+.loginbox .register .bottom > div:nth-of-type(8) {
+  border: 0;
+  width: 323px;
+  height: 20px;
+  margin-bottom: 5px; }
+
+.loginbox .register .bottom > div:nth-of-type(8) input {
+  float: left;
+  width: 12px;
+  height: 12px; }
+
+.loginbox .register .bottom > div:nth-of-type(8) label {
+  float: left;
+  font-size: 12px;
+  width: 300px; }
+
+.loginbox .register .bottom > div > button {
+  border: 0;
+  width: 26px;
+  height: 50px;
+  background: #fff;
+  margin-left: 5px;
+  font-size: 12px; }
+
+.loginbox .register .bottom > label {
+  font-size: 12px;
+  color: #a0a0a0;
+  width: 297px;
+  height: 53px;
+  /*	display: inline-block;*/ }
+
+.loginbox .register .bottom > button {
+  width: 325px;
+  border: 0;
+  height: 48px;
+  background: #1e95f1;
+  text-align: center;
+  line-height: 48px;
+  color: #fff; }
+
+.loginbox .register .bottom .p {
+  font-size: 12px;
+  color: #d0d0d0;
+  width: 314px;
+  text-align: center;
+  border: 0; }
+
+/*登录*/
+.loginbox .register .bottom1 {
+  /*display: none;*/ }
+
+.loginbox .register .bottom1 > div input {
+  width: 270px;
+  height: 47px;
+  float: left;
+  border: 0;
+  text-indent: 10px; }
+
+.loginbox .register .bottom1 > div:nth-of-type(1) {
+  margin-bottom: 20px; }
+
+.loginbox .register .bottom1 > div:nth-of-type(2) {
+  margin-bottom: 10px; }
+
+.loginbox .register .bottom1 > div:nth-of-type(3) {
+  border: 0;
+  height: 20px; }
+
+.loginbox .register .bottom1 > div:nth-of-type(3) input {
+  float: left;
+  width: 12px;
+  height: 12px; }
+
+.loginbox .register .bottom1 > div:nth-of-type(3) em {
+  font-size: 12px;
+  color: #e1e1e1;
+  float: left; }
+
+.loginbox .register .bottom1 > div:nth-of-type(3) a {
+  float: right;
+  color: #e1e1e1;
+  font-size: 12px; }
+
+.loginbox .register {
+  height: 380px; }
+
+.loginbox .register .bottom1 > button {
+  margin-bottom: 10px; }
+
+.loginbox .register .bottom > div > img {
+  position: absolute;
+  display: block;
+  left: 328px;
+  top: 6px;
+  width: 40px;
+  height: 40px;
+  background: red; }

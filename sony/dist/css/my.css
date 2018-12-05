@@ -1,0 +1,202 @@
+@charset "UTF-8";
+html, body, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, section, article, nav, footer, figure, figcaption, aside, header, main {
+  padding: 0;
+  margin: 0; }
+
+ul, ol, li {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+img {
+  display: block; }
+
+b, strong, em, i, h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-style: normal; }
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+/*我的购物车*/
+.myshopbox {
+  background: #f5f5f5; }
+
+.myshopbox .myshop {
+  width: 1210px;
+  margin: 0 auto;
+  padding-bottom: 64px; }
+
+.myshopbox .myshop .top {
+  padding-top: 40px; }
+
+.myshopbox .myshop .top .m_left {
+  float: left; }
+
+.myshopbox .myshop .top img {
+  float: right;
+  margin-right: 10px; }
+
+.myshopbox .myshop p {
+  height: 40px;
+  border-bottom: 1px solid #000;
+  margin-top: 40px; }
+
+.myshopbox .myshop p i {
+  float: right;
+  padding-right: 25px;
+  background: url("../images/my/tip1.png") no-repeat right center; }
+
+.myshopbox .myshop .shopinfo .i_top span {
+  float: left;
+  font-size: 12px;
+  padding: 30px 0 30px 0; }
+
+.myshopbox .myshop .shopinfo .i_top > div {
+  float: right;
+  width: 650px; }
+
+.myshopbox .myshop .shopinfo .i_top div em {
+  float: left;
+  padding: 30px 66px 30px 0; }
+
+.myshopbox .myshop .shopinfo .i_top div em:nth-child(4) {
+  padding: 30px 66px 30px 40px; }
+
+.myshopbox .myshop .shopinfo .i_top div em:nth-child(3) {
+  padding: 30px 66px 30px 78px; }
+
+.myshopbox .myshop .shopinfo .i_top div em:nth-child(2) {
+  padding: 30px 66px 30px 112px; }
+
+.myshopbox .myshop .shopinfo .i_top div em:nth-child(1) {
+  padding: 30px 66px 30px 0; }
+
+.myshopbox .myshop .shopinfo .info {
+  height: 227px;
+  background: #fff; }
+
+.myshopbox .myshop .shopinfo .info > div {
+  height: 230px;
+  width: 1144px;
+  margin-top: 40px;
+  float: left;
+  margin-left: 20px;
+  border-top: 1px solid #000; }
+
+.myshopbox .myshop .shopinfo .info .i_1 {
+  float: left; }
+
+.myshopbox .myshop .shopinfo .info .i_1 .lens {
+  width: 111px;
+  height: 111px;
+  border: 1px solid #000;
+  margin: 20px 0 0 36px; }
+
+.myshopbox .myshop .shopinfo .info .i_1 .lens img {
+  width: 100%; }
+
+.myshopbox .myshop .shopinfo .info .txt {
+  width: 324px;
+  margin: 20px 55px 0 12px;
+  font-size: 16px;
+  float: left; }
+
+.myshopbox .myshop .shopinfo .info .rmb {
+  float: left;
+  width: 198px;
+  margin-top: 20px; }
+
+.myshopbox .myshop .shopinfo .info .num {
+  float: left; }
+
+.myshopbox .myshop .shopinfo .info .num .add {
+  width: 106px;
+  height: 36px;
+  border: 1px solid #000;
+  float: left;
+  margin-left: 20px;
+  margin: 20px 67px 0 12px; }
+
+.myshopbox .myshop .shopinfo .info .add .sub {
+  width: 35px;
+  height: 36px;
+  border-right: 1px solid #000;
+  float: left;
+  text-align: center;
+  line-height: 36px;
+  font-size: 25px;
+  background: #f1f4f9; }
+
+.myshopbox .myshop .shopinfo .info .add .plus {
+  width: 35px;
+  height: 36px;
+  border-left: 1px solid #000;
+  float: left;
+  text-align: center;
+  line-height: 36px;
+  font-size: 25px;
+  background: #f1f4f9; }
+
+.myshopbox .myshop .shopinfo .info .add .icur {
+  width: 34px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  float: left; }
+
+.myshopbox .myshop .shopinfo .info .add {
+  float: left;
+  width: 138px;
+  margin-top: 20px; }
+
+.myshopbox .myshop .shopinfo .info .oper {
+  float: left;
+  font-size: 12px;
+  margin-top: 20px; }
+
+.myshopbox .myshop .shopinfo .info .oper .delet {
+  margin-top: 22px;
+  padding-left: 15px;
+  background: url("../images/my/cp_del.png") no-repeat left; }
+
+/*结算*/
+.resbox {
+  background: #fff; }
+
+.resbox .res {
+  width: 1210px;
+  margin: 0 auto; }
+
+.resbox .res .res_1 {
+  width: 1141px;
+  height: 110px;
+  border-top: 1px solid #000;
+  margin: 0 auto; }
+
+.resbox .res .res_1 .go {
+  width: 210px;
+  height: 50px;
+  float: right;
+  background: blue;
+  line-height: 50px;
+  color: #fff; }
+
+.resbox .res .res_1 .go {
+  text-align: center;
+  margin-top: 10px; }
+
+.resbox .res .res_1 .price {
+  padding: 17px 10px 0 0;
+  color: blue;
+  float: right; }
