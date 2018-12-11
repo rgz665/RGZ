@@ -119,7 +119,24 @@ a {
 
 .goodbox .good {
   width: 1210px;
+  position: relative;
   margin: 0 auto; }
+
+.goodbox .good .lens {
+  width: 542px;
+  height: 542px;
+  left: 556px;
+  top: 0px;
+  /*border:1px solid #000;*/
+  position: absolute;
+  z-index: 9999;
+  overflow: hidden; }
+
+.goodbox .good .lens img {
+  width: 1084px;
+  height: 1084px;
+  position: absolute;
+  left: 200px; }
 
 .goodbox .good .g_top .g_left {
   width: 540px;
@@ -128,7 +145,15 @@ a {
 .goodbox .good .g_top .g_left .g_pic {
   width: 542px;
   height: 542px;
+  position: relative;
   border: 1px solid #000; }
+
+.goodbox .good .g_top .g_left .g_pic .mark {
+  width: 200px;
+  height: 200px;
+  top: 0;
+  border: 1px solid #000;
+  position: absolute; }
 
 .goodbox .good .g_top .g_left .g_pic img {
   display: none; }
@@ -363,7 +388,8 @@ a {
   border: 0; }
 
 /*弹出成功的添加*/
-.goodbox .success {  width: 555px;
+.goodbox .success {
+  width: 555px;
   height: 317px;
   border: 1px solid #000;
   position: fixed;
@@ -371,6 +397,7 @@ a {
   top: 0;
   bottom: 0;
   right: 0;
+  z-index: 999999;
   margin: auto;
   background: #fff;
   display: none; }

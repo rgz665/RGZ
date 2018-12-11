@@ -122,6 +122,7 @@ a {
 
 .topbox .top .right span:first-child {
   color: #1ba8e2;
+  cursor: pointer;
   background: none; }
 
 .topbox .top .right span:nth-child(2),
@@ -220,16 +221,57 @@ a {
 
 .topbox .top .right > div .shop {
   width: 500px;
-  height: 64px;
+  /*height: 64px;*/
   position: absolute;
   left: -449px;
   top: 63px;
   background: #f5f5f5;
   display: none; }
 
+.topbox .top .right > div .shop .order1 {
+  width: 487px;
+  height: 53px;
+  border-bottom: 1px solid #000;
+  margin-left: 5px;
+  background: #fff; }
+
+.topbox .top .right > div .shop .order1:last-child {
+  border-bottom: 0px; }
+
+.topbox .top .right > div .shop .order1 .o_pic {
+  width: 35px;
+  height: 35px;
+  float: left;
+  padding-top: 14px; }
+
+.topbox .top .right > div .shop .order1 .o_pic img {
+  width: 100%; }
+
+.topbox .top .right > div .shop .order1 .model {
+  float: left;
+  padding-top: 22px;
+  margin-left: 4px;
+  font-size: 14px; }
+
+.topbox .top .right > div .shop .order1 .num {
+  padding-top: 22px;
+  float: left;
+  margin-left: 150px; }
+
+.topbox .top .right > div .shop .order1 .money {
+  padding-top: 22px;
+  float: left;
+  margin-left: 10px; }
+
+.topbox .top .right > div .shop .order1 .del {
+  padding-top: 22px;
+  float: left;
+  margin-left: 50px;
+  cursor: pointer; }
+
 .topbox .top .right > div .shop .s_left {
   float: left;
-  padding: 26px 0 0 23px; }
+  padding: 19px 0 0 23px; }
 
 .topbox .top .right > div .shop .s_left em {
   float: left;
@@ -243,11 +285,12 @@ a {
   padding-left: 10px; }
 
 .topbox .top .right > div .shop .s_right {
+  padding-bottom: 14px;
   float: right; }
 
 .topbox .top .right > div .shop .s_right button {
   border: 0;
-  margin-top: 18px;
+  margin-top: 11px;
   margin-right: 18px;
   width: 104px;
   height: 35px;
@@ -295,6 +338,36 @@ a {
   left: 243px;
   top: 0;
   display: none; }
+
+.topbox .top .left .classify .one .o_1:nth-of-type(2) .two {
+  top: -40px; }
+
+.topbox .top .left .classify .one .o_1:nth-of-type(3) .two {
+  top: -80px; }
+
+.topbox .top .left .classify .one .o_1:nth-of-type(4) .two {
+  top: -120px; }
+
+.topbox .top .left .classify .one .o_1:nth-of-type(5) .two {
+  top: -160px; }
+
+.topbox .top .left .classify .one .o_1:nth-of-type(6) .two {
+  top: -200px; }
+
+.topbox .top .left .classify .one .o_1:nth-of-type(7) .two {
+  top: -240px; }
+
+.topbox .top .left .classify .one .o_1:nth-of-type(8) .two {
+  top: -280px; }
+
+.topbox .top .left .classify .one .o_1:nth-of-type(9) .two {
+  top: -320px; }
+
+.topbox .top .left .classify .one .o_1:nth-of-type(10) .two {
+  top: -360px; }
+
+.topbox .top .left .classify .one .o_1:nth-of-type(11) .two {
+  top: -400px; }
 
 .topbox .top .left .classify .one .two .top {
   height: 422px; }

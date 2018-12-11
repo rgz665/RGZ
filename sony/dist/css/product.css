@@ -230,7 +230,7 @@ a {
   display: inline-block;
   padding-left: 10px; }
 
-.listbox .list .left .condition a {
+.listbox .list .left .condition strong {
   font-size: 12px;
   color: #26a8df;
   display: inline-block;
@@ -275,6 +275,7 @@ a {
   margin: 4px 0 0 4px; }
 
 .listbox .list .left .screencon > ul li i {
+  padding-left: 7px;
   float: left; }
 
 /*右列表*/
@@ -313,12 +314,11 @@ a {
 
 .listbox .list .right .right_bottom .lens {
   width: 232px;
-
   float: left;
   border: 1px solid #000;
   margin-right: 7px;
   margin-top: 10px;
-   margin-bottom: 40px;
+  margin-bottom: 40px;
   position: relative; }
 
 .listbox .list .right .right_bottom .lens > img {
@@ -395,7 +395,8 @@ a {
 
 .listbox .list .right .right_bottom .lens .info a {
   float: left; }
-  .listbox .list .right .right_bottom .lens .info strong {
+
+.listbox .list .right .right_bottom .lens .info strong {
   float: left; }
 
 .listbox .list .right .right_bottom .lens .info strong:nth-child(1) img {
@@ -406,12 +407,12 @@ a {
   display: block;
   padding: 10px 0 0 14px; }
 
-.listbox .list .right .right_bottom .lens .info a{
+.listbox .list .right .right_bottom .lens .info a {
   font-size: 14px;
   color: #fff;
   padding: 14px 0 0 26px; }
 
-.listbox .list .right .right_bottom .lens .border{
+.listbox .list .right .right_bottom .lens .border {
   width: 230px;
   height: 362px;
   border: 3px solid #26a8df;
@@ -426,56 +427,54 @@ a {
 .listbox .list .right .right_bottom .lens:hover .info {
   display: block; }
 
-
 /*添加商品*/
-.joinbox{
+.joinbox {
   width: 554px;
   height: 317px;
   background: #fff;
-  position:fixed;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  margin:auto;
+  margin: auto;
   z-index: 99999;
-  display: none;
-}
-.joinbox .join{
+  display: none; }
+
+.joinbox .join {
   width: 554px;
   height: 50px;
-  background: #f2f2f2;  
-}
-.joinbox .join img{
-  float: right;
-}
-.joinbox .cen{
+  background: #f2f2f2; }
+
+.joinbox .join img {
+  float: right; }
+
+.joinbox .cen {
   width: 554px;
   height: 50px;
   margin-top: 43px;
-  margin-bottom: 47px;
-}
-.joinbox .cen img{
+  margin-bottom: 47px; }
+
+.joinbox .cen img {
   float: left;
-  padding-left: 130px;
-}
-.joinbox .cen span{
+  padding-left: 130px; }
+
+.joinbox .cen span {
   float: left;
   padding-left: 24px;
-  margin-top: 10px;
-}
-.joinbox .bott .b_one{
+  margin-top: 10px; }
+
+.joinbox .bott .b_one {
   width: 218px;
   height: 53px;
   background: #e9eef2;
   color: #7c819f;
   float: left;
-  margin-left:50px;
-  text-align:center;
-  line-height: 53px;
-}
-.joinbox .bott .b_two{
+  margin-left: 50px;
+  text-align: center;
+  line-height: 53px; }
+
+.joinbox .bott .b_two {
   background: #0a83d6;
   color: #fff;
-  margin-left: 20px;
-}
+  margin-left: 20px; }

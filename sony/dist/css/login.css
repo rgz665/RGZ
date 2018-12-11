@@ -29,15 +29,18 @@ a {
   color: #000; }
 
 /*注册*/
+.loginbox {
+  display: none; }
+
 .loginbox .register {
   width: 559px;
   height: 613px;
   background: #fff;
   position: absolute;
-  z-index: 999;
+  z-index: 9;
   opacity: 1;
-  left: 100px;
-  top: 100px; }
+  left: 400px;
+  top: 200px; }
 
 .loginbox .register .top .t_one {
   width: 251px;

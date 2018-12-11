@@ -82,12 +82,24 @@ a {
 .myshopbox .myshop .shopinfo .i_top div em:nth-child(1) {
   padding: 30px 66px 30px 0; }
 
+.myshopbox .myshop .shopinfo .pleaseshop {
+  width: 1210px;
+  height: 400px;
+  background: url("../images/my/STX25MRR3(0H86PROEJD1Y6.png") no-repeat center; }
+
+.myshopbox .myshop .shopinfo .pleaseshop a {
+  font-size: 20px;
+  color: blue;
+  display: block;
+  text-align: center;
+  padding-top: 270px; }
+
 .myshopbox .myshop .shopinfo .info {
   height: 227px;
   background: #fff; }
 
 .myshopbox .myshop .shopinfo .info > div {
-  height: 230px;
+  height: 185px;
   width: 1144px;
   margin-top: 40px;
   float: left;

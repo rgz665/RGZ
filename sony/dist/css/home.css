@@ -267,6 +267,12 @@ a {
   line-height: 98px;
   background: url("../images/home/blocktitlelogo2.png") no-repeat 500px; }
 
+.audiobox4 .audio p {
+  background: url("../images/home/blocktitlelogo.png") no-repeat 500px; }
+
+.audiobox1 .audio p {
+  background: url("../images/home/blocktitlelogo3.png") no-repeat 500px; }
+
 .audiobox .audio .link {
   margin: 0 auto; }
 
@@ -277,7 +283,7 @@ a {
   border-right: 1px solid #000; }
 
 .audiobox .audio .link a:first-child {
-  padding-left: 85px; }
+  padding-left: 186px; }
 
 .audiobox .audio .link a:last-child {
   border: 0; }
@@ -505,7 +511,6 @@ a {
 
 .audiobox .audio .product1 .right .b .three {
   width: 295px;
-  margin-top: 10px;
   margin-left: 10px;
   position: relative;
   height: 194px; }
@@ -668,8 +673,14 @@ a {
 
 .audiobox1 .audio .product1 .left .b .three {
   width: 295px;
+  background: #fff;
   position: relative;
   height: 194px; }
+
+.audiobox1 .audio .product1 .left .b .three img {
+  position: absolute;
+  left: 19px;
+  top: 88px; }
 
 .audiobox1 .audio .product1 .left .b .three .text {
   position: absolute;
@@ -697,6 +708,11 @@ a {
   background: #fff;
   height: 194px;
   margin-top: 10px; }
+
+.audiobox1 .audio .product1 .left .b .four img {
+  position: absolute;
+  top: 70px;
+  left: 26px; }
 
 .audiobox1 .audio .product1 .left .b .four .text {
   position: absolute;
@@ -727,7 +743,13 @@ a {
 
 .audiobox1 .audio .product .right .m .two {
   width: 295px;
+  background: #fff;
   height: 295px; }
+
+.audiobox1 .audio .product .right .m .two img {
+  position: absolute;
+  left: 100px;
+  top: 148px; }
 
 /* .audiobox1 .audio .product .right .m .two>img{
     width: 100%;
@@ -762,12 +784,43 @@ a {
 
 .audiobox1 .audio .product .right .b .three {
   width: 295px;
+  background: #fff;
   height: 295px; }
+
+.audiobox1 .audio .product .right .b .three img {
+  position: absolute;
+  left: 70px;
+  top: 149px; }
 
 .audiobox1 .audio .product .right .b .four {
   width: 295px;
+  position: relative;
+  background: #fff;
   height: 195px;
   margin-top: 10px; }
+
+.audiobox1 .audio .product .right .b .four img {
+  position: absolute;
+  left: 119px;
+  top: 74px; }
+
+.audiobox1 .audio .product1 .right .m .two {
+  position: relative;
+  background: #fff; }
+
+.audiobox1 .audio .product1 .right .m .two img {
+  position: absolute;
+  left: 18px;
+  top: 204px; }
+
+.audiobox1 .audio .product1 .right .b .three {
+  position: relative;
+  background: #fff; }
+
+.audiobox1 .audio .product1 .right .b .three img {
+  position: absolute;
+  left: 118px;
+  top: 70px; }
 
 /*潮玩科技*/
 .audiobox2 .audio .product .left {
@@ -835,9 +888,15 @@ a {
   width: 295px;
   height: 398px;
   float: left;
+  background: #fff;
   position: relative;
   margin-top: 10px;
   margin-right: 10px; }
+
+.audiobox2 .audio .product .right .b .three img {
+  position: absolute;
+  left: 10px;
+  top: 200px; }
 
 .audiobox2 .audio .product .right .b .three .text {
   position: absolute;
@@ -867,7 +926,13 @@ a {
 
 .audiobox2 .audio .product .right .b .four1 {
   position: relative;
+  background: #fff;
   margin-right: 10px; }
+
+.audiobox2 .audio .product .right .b .four1 img {
+  position: absolute;
+  left: 10px;
+  top: 200px; }
 
 .audiobox2 .audio .product .right .b .four1 .text {
   position: absolute;
@@ -897,8 +962,14 @@ a {
 .audiobox2 .audio .product .left .b .three {
   width: 295px;
   height: 398px;
+  background: #fff;
   position: relative;
   float: left; }
+
+.audiobox2 .audio .product .left .b .three img {
+  position: absolute;
+  left: 10px;
+  top: 200px; }
 
 .audiobox2 .audio .product .left .b .three .text {
   position: absolute;
@@ -925,9 +996,15 @@ a {
   height: 398px;
   margin-top: 10px;
   float: left;
+  background: #fff;
   position: relative;
   margin-top: 0px;
   margin-left: 10px; }
+
+.audiobox2 .audio .product .left .b .four img {
+  position: absolute;
+  left: 10px;
+  top: 200px; }
 
 .audiobox2 .audio .product .left .b .four .text {
   position: absolute;
@@ -1051,3 +1128,43 @@ a {
 .speS {
   padding-left: 4px;
   padding-top: 77px; }
+
+/*会员专区 */
+.audiobox6 .audio .product .right .m .two img {
+  padding: 0; }
+
+.audiobox6 .audio .product .right .b .three img {
+  top: 0;
+  left: 0; }
+
+.audiobox6 .audio .product .right .b .four1 img {
+  left: 0;
+  top: 0; }
+
+.audiobox6 .audio .product .left .b .three img {
+  left: 0;
+  top: 0; }
+
+.audiobox6 .audio .product .left .b .four img {
+  left: 0;
+  top: 0; }
+
+.audiobox1 .audio .link a:first-child {
+  padding-left: 300px; }
+
+.audiobox2 .audio .link a:first-child {
+  padding-left: 500px; }
+
+.audiobox3 .audio p {
+  color: #fff;
+  /*background: url("../images/home/RightFixNav_icon5.jpg") no-repeat 500px;*/ }
+
+.audiobox3 .audio .link a {
+  color: #fff;
+  border-right: 1px solid #fff; }
+
+.audiobox3 .audio .link a:last-child {
+  border: 0; }
+
+.audiobox3 .audio .link a:first-child {
+  padding-left: 448px; }
